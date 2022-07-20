@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/d88fbfa2f1.js" crossorigin="anonymous"></script>
+  <!-- fonts google -->
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+  
+  <link rel="stylesheet" href="style/index.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <section class="  ">
+    <header class="">
+      <!-- menu para dispositivos menores que 989 pxeis -->
+      <nav id="hidelg" class=" navbar navbar-expand-lg bg-light navbar-light">
+        <!-- Brand -->
+        <div class="d-flex align-items-center mt-n3">
+          <a class="navbar-brand ml-n4" href="#">
+            <img id="logo" src="assets/images/logo.png" alt="logo da marca">
+          </a>
+
+          <button type="button" class="btn mx-auto dropdown-toggle" data-toggle="dropdown" aria-label="button">
+            <i class="fa-solid fa-magnifying-glass" ></i>
+          </button>
+          <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#myModal" aria-label="button">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="content-search" class="dropdown-menu ">
+              <form  class="">
+                <input type="text" class="" placeholder="buscar">
+                <button class="lupa"><i class="fa-solid fa-magnifying-glass " ></i></button>
+              </form>
+            </div>
+          
+        </div>
+      
+        <!-- Navbar links -->
+        <div  class="modal" id="myModal">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </nav>
+      <!-- menu para telas maiores que 990pxeis -->
+      <nav  class="hidemobile navbar navbar-expand-sm bg-dark justify-content-center">
+        ...
+      </nav>
+      
+    </header>
+
+    <!-- aqui vira a imagem que esta dentro do menu -->
+    <div class="hidemobile">
+      [imagen dentro do menu]
+    </div>
+
+    <!-- carrocel do header -->
+    <div class="">
+      <div id="demo" class="carousel slide position-relative container" >
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner text-center">
+          <!-- primeiro slide -->
+          <div class="carousel-item active">
+            <img class="carrocelImg" src="assets/images/coffee-306x204.jpg" alt="Los Angeles" >
+            <div class="captionCarrocel">
+              <h3 class="titlecarrocel ">a nice entry</h3>
+              <br>
+              <hr class="tb">
+              <br>
+              <button type="button" class="buttonCar btn " >leia mais</button>
+            </div>
+            <div class="carousel-caption">
+              <span class="table"></span>
+            </div>   
+          </div>
+          <!-- segendo slide -->
+          <div class="carousel-item">
+            <img class="carrocelImg" src="assets/images/skateborder_miles-306x204.jpg" alt="Chicago" >
+            <div class="captionCarrocel">
+              <h3 class="titlecarrocel">ENTRY WITH AUDIO</h3>
+              <br>
+              <hr class="tb">
+              <br>
+              <button type="button" class="buttonCar btn " >leia mais</button>
+            </div>   
+          </div>
+          <!-- terceiro slide -->
+          <div class="carousel-item">
+            <img class="carrocelImg" src="assets/images/public-domain-office2-306x204.jpg" alt="New York" >
+            <div class="captionCarrocel">
+              <h3 class="titlecarrocel ">LOREM IPSUM</h3>
+              <br>
+              <hr class="tb">
+              <br>
+              <button type="button" class="buttonCar btn " >leia mais</button>
+            </div>  
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev" aria-label="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next" aria-label="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+    <hr class="hr">
+  </section>
+
+  <!-- aqui começa o site  -->
+  <section class="section container-lg">
+
+    <article class=" container">
+      <div class="text-center articleTitle">
+        <h4 class="h5">news</h4>
+        <h2 class="">a nice entry</h2>
+        <img class="imgflo " src="assets/images/coffee-306x204.jpg" alt="imagem de um cafe">
+      </div>
+      <p class="paragrafoArticle">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <blockquote class="blockquote"> 
+      <p class="parablockquote">
+        <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur natus rem soluta quae sint! Sit, eaque? Amet odit tempora fuga id provident ea mollitia excepturi blanditiis cupiditate! Tempora, exercitationem voluptatem.</i>
+      </p>
+    </blockquote>
+    <button type="button" class="bt text-center btn btn btn-outline-warning  ">Read more</button>
+      </article>
+      <hr>
+      <div class="text-center">
+        <p class="text-secondary">AUGUST 24, 2014<span class="border-left ml-3 pl-3">BY KRIESI</span></p>
+    </div>
+    <hr>
+  
+    <!-- ↓lado esquerdo 1-->
+    <article class="conteladoEsquerdo container">
+
+          <div id="audio" class="position-relative">
+            <img class="imgflo" src="assets/images/skateborder_miles-495x400.jpg" alt="">
+            <div class="">
+              <audio id="controle"  controls>
+                <source src="/assets/videoplayback (online-audio-converter.com).mp3" type="audio/mpeg">
+            </div>
+            </audio>
+          </div>
+        <div class="text-center articleTitle">
+          <h4 class="h5">news</h4>
+          <h2 class="">Entrada com audio</h2>
+        </div>
+        <hr class="w-25">
+        <p class="">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, culpa cumque! Omnis a ducimus, reiciendis, mollitia corporis cupiditate expedita repellendus quibusdam ratione, porro vel! Amet suscipit voluptates commodi. Alias, eligendi.
+        </p>
+        
+    </article>
+    <!-- ------------ -->
+    
+    <!-- ↓lado direito 1-->
+    <aside class="conteladodireito container">
+      
+        
+          <img class="imgflo" src="assets/images/public-domain-office2-495x400.jpg" alt="">
+        
+        <div class="text-center articleTitle">
+          <h4 class="h5">news</h4>
+          <h2 class="">LOREM IPSUM</h2>
+        </div>
+        <hr class="w-25">
+        <p class="">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo est expedita aperiam eligendi impedit. Vitae quibusdam dolorem quae eos explicabo veniam a, deleniti eligendi, magnam molestiae corporis quod inventore fugiat.
+        </p>
+
+    </aside>
+    <!-- ------------- -->
+    <footer class="rodaArtigo">
+      <hr>
+      <div class="text-center">
+        <p class="text-secondary">May 11, 2014<span class="border-left ml-5 pl-5">February 12, 2014</span></p>
+    </div>
+      <hr>
+    </footer>
+    <!-- ↓lado esquerdo 2-->
+    <article class="conteladoEsquerdo container">
+      
+        <div class="">
+          <img class="imgflo" src="assets/images/mulherDoculos495x400.jpg" alt="">
+        </div>
+        <div class="text-center articleTitle">
+          <h4 class="h5">PERSONAL</h4>
+          <h2 class="">ENTRY WITH POST FORMAT “VIDEO”</h2>
+        </div>
+        <hr class="w-25">
+        <p class="">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, culpa cumque! Omnis a ducimus, reiciendis, mollitia corporis cupiditate expedita repellendus quibusdam ratione, porro vel! Amet suscipit voluptates commodi. Alias, eligendi.
+        </p>
+        
+    </article>
+    <!-- ------------ -->
+    
+    <!-- ↓lado direito 2-->
+    <aside class="conteladodireito container">
+      
+        <div class="">
+          <img class="imgflo" src="assets/images/skateborder_miles-495x400.jpg" alt="">
+        </div>
+        <div class="text-center articleTitle">
+          <h4 class="h5">NEWS, PERSONAL</h4>
+          <h2 class="">A SMALL GALLERY</h2>
+        </div>
+        <hr class="w-25">
+        <p class="">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo est expedita aperiam eligendi impedit. Vitae quibusdam dolorem quae eos explicabo veniam a, deleniti eligendi, magnam molestiae corporis quod inventore fugiat.
+        </p>
+
+        
+       
+    </aside>
+    <!-- ------------- -->
+    <footer class="rodaArtigo">
+      <hr>
+      <div class="text-center">
+        <p class="text-secondary">May 11, 2014<span class="border-left ml-5 pl-5">February 12, 2014</span></p>
+    </div>
+      <hr>
+    </footer>
+    <!-- ↓lado esquerdo 3-->
+    <article class="conteladoEsquerdo container">
+      
+        
+          <img class="imgflo" src="assets/images/ponte495x400.jpg" alt="">
+        <div class="text-center articleTitle">
+          <h4 class="h5">news</h4>
+          <h2 class="">THIS IS A POST WITH POST TYPE “LINK”</h2>
+        </div>
+        <hr class="w-25">
+        <p class="">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, culpa cumque! Omnis a ducimus, reiciendis, mollitia corporis cupiditate expedita repellendus quibusdam ratione, porro vel! Amet suscipit voluptates commodi. Alias, eligendi.
+        </p>
+        
+    </article>
+    <!-- ------------ -->
+    
+    <!-- ↓lado direito 3-->
+    <aside class="conteladodireito container-lg">
+      
+        
+          <img class="imgflo" src="assets/images/urso495x400.jpg" alt="">
+        
+        <div class="text-center articleTitle">
+          <h4 class="h5">news</h4>
+          <h2 class="">A NICE POST</h2>
+        </div>
+        <hr class="w-25">
+        <p class="">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo est expedita aperiam eligendi impedit. Vitae quibusdam dolorem quae eos explicabo veniam a, deleniti eligendi, magnam molestiae corporis quod inventore fugiat.
+        </p>
+
+        
+       
+    </aside>
+    <!-- ------------- -->
+    <footer class="rodaArtigo">
+      <hr>
+      <div class="text-center">
+        <p class="text-secondary">May 11, 2014<span class="border-left ml-5 pl-5">February 12, 2014</span></p>
+    </div>
+      <hr>
+    </footer>
+  </section>
+  <!-- aside lateral com o conteudo principal -->
+  <aside class="aside hidemobile pr-3 container-lg">
+    <h4 class="haside mt-0 text-center">THATS ME: ALICIA ENFOLD</h4>
+    <img src="/assets/images/aliceenfold.jpeg" alt="">
+      <h6 class="hasidep text-center">Cum sociis natoque penatibus</h6>
+    <p class="text-center">
+      Magnis dis parturient montes, nascetur ridiculus mus.
+    </p>
+    <img src="/assets/images/assinatura.png" alt="">
+  </aside>
+
+  <!-- paginação -->
+  <div id="paginacao" class="d-flex align-content-center container-lg">
+    <ul class="listpag">
+      <li class="itenpag "><a class="" href="#">1</a></li>
+      <li class="itenpag"><a class="" href="#">2</a></li>
+    </ul>
+    <div class="ml-auto mr-2">
+      <p id="pagAtual"> <i>Pagina 1 de 2</i></p>
+    </div>
+  </div>
+  
+  
+  <!-- rodape -->
+  <footer id="rodape " class="text-secondary container-lg">
+    <div class="divrodape">
+      <h6 class="text-dark">INTERESTING LINKS</h6>
+      <ul class="">
+        <li class=""><a href="" class="text-secondary">Here are some interesting links for you! Enjoy your stay :)</a></li>
+        
+      </ul>
+    </div>
+    <div class="divrodape" >
+      <h6 class="text-dark">CATEGORIES</h6>
+      <ul class="">
+        <li class=""><a href="" class="text-secondary">News</a></li>
+        <li class=""><a href="" class="text-secondary">Personal</a></li>
+      </ul>
+    </div>
+    <div class="divrodape">
+      <h6 class="text-dark">ARCHIVES</h6>
+      <ul class="">
+        <li class=""><a href="" class="text-secondary">August 2014</a></li>
+        <li class=""><a href="" class="text-secondary">May 2014</a></li>
+        <li class="a"><a href="" class="text-secondary">February 2014</a></li>
+        <li class=""><a href="" class="text-secondary">December 2013</a></li>
+        <li class=""><a href="" class="text-secondary">January 2013</a></li>
+        <li class=""><a href="" class="text-secondary">August 2012</a></li>
+        <li class=""><a href="" class="text-secondary">May 2012</a></li>
+        <li class=""><a href="" class="text-secondary">October 2011</a></li>
+      </ul>
+    </div>
+    <div class="divrodape">
+      <h6 class="text-dark">SITEMAP</h6>
+      <ul class="">
+        <li class=""><a href="" class="text-secondary">home</a></li>
+        <li class=""><a href="" class="text-secondary">about</a></li>
+        <li class=""><a href="" class="text-secondary">contact</a></li>
+      </ul>
+    </div>
+    <div class="divcopy">
+      <p class="d-inline"><i class='far fa-copyright'></i> - {program(amar)} - By <i>Pedro dos Santos Maciel Jr</i> 
+        </p>
+        <span class="ml-5">
+          <i class='fab fa-twitter '></i> 
+          <i class='fab fa-dribbble ml-1'></i>
+        </span>
+      <p>Este site NÃO foi construido em Word Press</p>
+    </div>
+  </footer>
+
+
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

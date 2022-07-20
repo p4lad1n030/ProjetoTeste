@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+/* menu header para dispositivos maiores que 989px */
+.hidemobile {
+  display: none;
+}
+#myModal {
+  background-color: white;
+  width: 75%;
+  margin-left: 25%;
+}
+#content-search {
+  padding: 8px;
+  margin-left: 30%;
+  width: auto;
+}
+#logo {
+  width: 100%;
+}
+/* carrousel embaixo do menu */
+.carrocelImg {
+  border-radius: 13px;
+  z-index: 0;
+  width: 100%;
+  height: 350px;
+  margin: 0 auto;
+}
+.captionCarrocel {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 112px;
+  text-align: center;
+}
+.tb {
+  z-index: 1;
+  width: 115px;
+  height: 0.3vh;
+  background-color: white;
+}
+.titlecarrocel {
+  top:39px;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+}
+.buttonCar {
+  color: white;
+  top: 64px;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  border: 3px solid white;
+}
+/* ---------------- */
+.hr {
+  margin-top: 87px;
+}
+.articleTile {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  margin-top: 87px;
+}
+.articleTitle h4 {
+  color: rgb(229, 189, 87);
+}
+.articleTitle h2 {
+  margin-top: -9px;
+  margin-bottom: 28px;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+}
+/* imagens */
+img {
+  padding: 10px;
+  width: 100%;
+}
+.imgflo{
+  cursor: pointer;
+  width: 100%;
+}
+.imgflo:hover{
+  opacity: 0.4;
+}
+.paragrafoArticle {
+  text-align: left;
+  padding: 10px;
+}
+.parablockquote {
+  text-align: left;
+  padding: 3px;
+}
+.blockquote {
+  border-left-style: solid;
+  border-left-width: 7px;
+  border-color: #e0b13a;
+  padding-left: 20px;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  margin-left: 1em;
+  font-size: 1.235em;
+  line-height: 1.5em;
+}
+.bt{
+  position: relative;
+  margin-left: 6em;
+  width: 10em;
+}
+.bt:hover {
+  color: white;
+}
+/* duas colunas de conteudo principal */
+
+#controle{
+  opacity: 0.7;
+  left: 6%;
+  position: absolute;
+  bottom: 11px;
+  width: 90%;
+  height: 30px;
+}
+#controle:hover{
+  opacity: 0.4;
+}
+ .conteladoEsquerdo{
+  display: block;
+  padding: 8px;
+  float: left;
+ width: 50%;
+
+}
+.conteladodireito {
+  display: block;
+  padding: 8px;
+  float: right;
+  width: 50%;
+}
+
+/* rodape das colunas principais(footer dentro da section) */
+.rodaArtigo {
+  clear: both;
+}
+
+/* estilo para a paginação */
+
+
+.itenpag{
+  text-decoration: none;
+  text-align: center;
+  border-radius: 100%;
+  padding: 1px;
+  margin-left: 10px;
+  display: inline-block;
+  list-style: none;
+  line-height: 35px;
+  width: 38px;
+  height: 38px;
+  background-color: #FCFCFC;
+}
+#pagAtual {
+
+  float: right;
+}
+#paginacao{
+  clear: both;
+}
+/* rodape do site */
+#rodape {
+  clear: both;
+  background-color: #FCFCFC;
+}
+
+.divrodape {
+  margin-left: 18px;
+}
+
+footer li{
+  list-style: none;
+  margin-left: -36px;
+}
+.divcopy{
+  font-size: 0.7em;
+}
+
+/* media queries */
+@media screen and (min-width: 576px) {
+  .captionCarrocel {
+    left: 0;
+    right: 0;
+    top: 112px;
+  }
+}
+@media screen and (min-width: 988px) {
+  #hidelg {
+    display: none;
+  }
+  .hidemobile {
+    display: block;
+  }
+  /* conteudo principal */
+  .section{
+    display: block;
+    float: left;
+    width: 70%;
+  }
+  .bt{
+    position: relative;
+    left: 80;
+    right: 80;
+  }
+  /* barra ao lado do conteudo principal */
+  .aside {
+    display: block;
+    margin-top: 17px;
+    padding: 10px;
+    float: right;
+    height: auto;
+    width: 30%;
+  }
+  .haside{
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    color: #e0b13a;
+  }
+  .hasidep{
+    font-weight: bold;
+  }
+  /* rodape */
+  
+
+
+
+
+}
